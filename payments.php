@@ -27,7 +27,7 @@
 	<div class="main">
 		<div class="card">
 			<h2>Record Payment</h2>
-			<form method="POST">
+			<form method="POST" autocomplete="off">
 				<div class="form-row">
 					<select name="trainee_id" required>
 						<option value="">Select Trainee</option>

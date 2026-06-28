@@ -34,7 +34,7 @@
     <div class="auth-container">
         <h2>Admin Login</h2>
         <?php if(isset($error)) echo "<p style='color:red; text-align:center;'>$error</p>"; ?>
-        <form method="POST">
+        <form method="POST" autocomplete="off">
             <input type="email" name="email" placeholder="Email" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit" name="login">Login</button>

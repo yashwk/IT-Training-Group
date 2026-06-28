@@ -44,14 +44,14 @@
         <div class="dashboard-boxes" style="margin-bottom: 20px;">
             <div class="card" style="flex:1;">
                 <h2>Add Course Type</h2>
-                <form method="POST">
+                <form method="POST" autocomplete="off">
                     <input type="text" name="type_name" placeholder="Type (e.g. Online)" required>
                     <button type="submit" name="add_type">Save Type</button>
                 </form>
             </div>
             <div class="card" style="flex:1;">
                 <h2>Add Duration</h2>
-                <form method="POST">
+                <form method="POST" autocomplete="off">
                     <input type="text" name="duration_label" placeholder="Duration (e.g. 6 Months)" required>
                     <button type="submit" name="add_duration">Save Duration</button>
                 </form>
@@ -60,7 +60,7 @@
 
         <div class="card">
             <h2>Add Course</h2>
-            <form method="POST">
+            <form method="POST" autocomplete="off">
                 <div class="form-row">
                     <input type="text" name="course_name" placeholder="Course Name" required>
                     <input type="number" step="0.01" name="total_fee" placeholder="Total Fee" required>

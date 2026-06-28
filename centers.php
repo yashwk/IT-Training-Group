@@ -29,7 +29,7 @@
     <div class="main">
         <div class="card">
             <h2>Add Center</h2>
-            <form method="POST">
+            <form method="POST" autocomplete="off">
                 <input type="text" name="center_name" placeholder="Center Name" required>
                 <button type="submit" name="save_center">Save Center</button>
             </form>

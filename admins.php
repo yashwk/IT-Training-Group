@@ -40,7 +40,7 @@
     <div class="main">
         <div class="card">
             <h2>Add Admin</h2>
-            <form method="POST" enctype="multipart/form-data">
+            <form method="POST" enctype="multipart/form-data" autocomplete="off">
                 <div class="form-row">
                     <input type="text" name="name" placeholder="Name" required>
                     <input type="email" name="email" placeholder="Email" required>

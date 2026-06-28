@@ -34,7 +34,7 @@
     <div class="main">
         <div class="card">
             <h2>Add Trainee</h2>
-            <form method="POST" enctype="multipart/form-data">
+            <form method="POST" enctype="multipart/form-data" autocomplete="off">
                 <div class="form-row">
                     <input type="text" name="name" placeholder="Name" required>
                     <input type="text" name="father_name" placeholder="Father Name" required>

@@ -22,7 +22,7 @@
     <div class="auth-container">
         <h2>Admin Signup</h2>
         <?php if(isset($error)) echo "<p style='color:red; text-align:center;'>$error</p>"; ?>
-        <form method="POST">
+        <form method="POST" autocomplete="off">
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Email" required>
             <input type="text" name="contact" placeholder="Contact" required>
